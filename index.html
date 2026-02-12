@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Mathématiques — Rudasingwa Ibrahim</title>
+  <meta name="description" content="Documents de mathématiques : cours, exercices, devoirs maison, corrigés et devoirs sur table — par classe et par chapitre." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container">
+      <div class="brand">
+        <div class="logo">∑</div>
+        <div>
+          <h1>Mathématiques — Rudasingwa Ibrahim</h1>
+          <p class="subtitle">Lycée Bamana • Mayotte (France)</p>
+        </div>
+      </div>
+
+      <nav class="nav">
+        <a href="index.html" class="active">Accueil</a>
+        <a href="#classes">Classes</a>
+        <a href="#apropos">À propos</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+
+    <section class="hero">
+      <div class="hero-card">
+        <h2>Bienvenue</h2>
+        <p>
+          Ce site regroupe mes supports de mathématiques :
+          fiches méthode, exercices, devoirs maison, corrigés publiés ultérieurement,
+          devoirs sur table et ressources complémentaires.
+        </p>
+        <div class="pill-row">
+          <span class="pill">Organisation par classe</span>
+          <span class="pill">Documents PDF</span>
+          <span class="pill">Mises à jour régulières</span>
+        </div>
+      </div>
+
+      <div class="hero-card">
+        <h2>Utilisation</h2>
+        <p>
+          1️⃣ Choisir sa classe<br>
+          2️⃣ Ouvrir le chapitre<br>
+          3️⃣ Télécharger le document correspondant
+        </p>
+        <p class="hint">
+          Les corrigés sont publiés à une date ultérieure.
+        </p>
+      </div>
+    </section>
+
+    <section id="classes" class="section">
+      <div class="section-title">
+        <h2>Classes</h2>
+        <p>Accès direct par classe.</p>
+      </div>
+
+      <div class="grid">
+
+        <a class="card" href="seconde-205.html">
+          <h3>Seconde 205</h3>
+          <p>Fiches • DM • Corrigés • DST</p>
+          <span class="cta">Ouvrir →</span>
+        </a>
+
+        <a class="card" href="seconde-219.html">
+          <h3>Seconde 219</h3>
+          <p>Fiches • DM • Corrigés • DST</p>
+          <span class="cta">Ouvrir →</span>
+        </a>
+
+        <a class="card" href="term-stmg-rh-t19.html">
+          <h3>Tle techno STMG RH T19</h3>
+          <p>Cours • Exercices • Évaluations</p>
+          <span class="cta">Ouvrir →</span>
+        </a>
+
+        <a class="card" href="bts-mec1.html">
+          <h3>BTS MEC1</h3>
+          <p>Supports • TD • Devoirs</p>
+          <span class="cta">Ouvrir →</span>
+        </a>
+
+      </div>
+    </section>
+
+    <section id="apropos" class="section">
+      <div class="section-title">
+        <h2>À propos</h2>
+      </div>
+
+      <div class="card">
+        <p>
+          <strong>Rudasingwa Ibrahim</strong><br>
+          Professeur de mathématiques<br>
+          Lycée Bamana — Mayotte (France)
+        </p>
+
+        <p class="hint">
+          Ce site a pour objectif de faciliter l'accès aux supports pédagogiques
+          et d'assurer une continuité dans le travail des élèves.
+        </p>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <span>© <span id="year"></span> Rudasingwa Ibrahim — Mathématiques</span>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+
+</body>
+</html>
